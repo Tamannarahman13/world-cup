@@ -1,0 +1,58 @@
+body {
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+.banner {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 5%;
+    border-radius: 20px;
+}
+
+.half-width {
+    width: 50%;
+    margin-left: 10%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.banner-button {
+    background-color: red;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.fa-angle-right {
+
+    margin-left: 5px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 10%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#goal {
+    margin-bottom: 5%;
+}
+
+.footer a {
+    text-decoration: none;
+    margin-left: 5%;
+    color: white;
+
+}
