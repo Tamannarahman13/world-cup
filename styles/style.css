@@ -36,6 +36,8 @@ h1 {
 .fa-angle-right {
 
     margin-left: 5px;
+    font-size: 20px;
+
 }
 
 .side-blog {
@@ -43,6 +45,15 @@ h1 {
     display: flex;
     flex-direction: column;
     background-color: white;
+}
+
+.fa-comment-dots {
+    margin-left: 10%;
+    font-size: 20px;
+}
+
+.fa-clock {
+    font-size: 20px;
 }
 
 .side-blogs {
@@ -62,6 +73,10 @@ h1 {
     margin-right: 20px;
     border-radius: 10px;
 
+}
+
+.transfer-button {
+    padding: 10px;
 }
 
 .side-nav a {
@@ -124,4 +139,43 @@ h1 {
     margin-left: 5%;
     color: white;
 
+}
+
+/* Upcoming Match styles */
+.flag {
+    display: flex;
+    gap: 10%;
+
+
+
+}
+
+.flag img {
+    width: 130%;
+}
+
+
+.upcoming-matchs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+
+
+}
+
+.upcoming-match {
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 40px;
+
+    text-align: center;
+
+
+
+}
+
+
+.detail {
+    text-align: center;
 }
