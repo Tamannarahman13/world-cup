@@ -38,6 +38,75 @@ h1 {
     margin-left: 5px;
 }
 
+.side-blog {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.side-blogs {
+    width: 80%;
+}
+
+.side-nav {
+    width: 30%;
+    height: 100%;
+    /* background-color: black; */
+
+}
+
+.side-nav-colour {
+    background-color: black;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+
+}
+
+.side-nav a {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 5%;
+}
+
+#different-colour {
+    background-color: red;
+}
+
+
+
+.container {
+    display: flex;
+    margin: 5%;
+    margin-top: 10%;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+
+}
+
+.blog {
+    border: 1px solid gray;
+    border-radius: 15px;
+
+}
+
+.blog-title {
+    padding: 20px;
+}
+
+.blog img {
+    width: 100%;
+}
+
 .footer {
     background-color: black;
     color: white;
